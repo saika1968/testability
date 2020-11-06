@@ -3,6 +3,7 @@ public class BonusMilesService {
         int bonus = 20;
         int miles = price / bonus;
         if (price > bonus) {
+        } else {
             miles = 0;
         }
         return miles;
